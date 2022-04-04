@@ -34,14 +34,14 @@ body{
     flex-wrap: wrap;
 }
 .showProduct .item{
-    width: 45%;
+    width: 48%;
     height: 222px;
     border-radius: 10px;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
     padding: 10px;
-    margin: 7px;
+    margin: 7px 0;
     background-color: white;
 }
 .showProduct .iconHeart{
