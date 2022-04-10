@@ -1,8 +1,8 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, Platform, ScrollView} from 'react-native';
 
 const App = () => (
-  <View style={styles.container}>
+  <ScrollView style={styles.container}>
     <View style={[styles.item, styles.purple]}>
       <Text style={styles.title}>Purple: #C9C9FF</Text>
     </View>
@@ -15,7 +15,7 @@ const App = () => (
     <View style={[styles.item, styles.yellow]}>
       <Text style={styles.title}>Yellow: #F4B940</Text>
     </View>
-  </View>
+  </ScrollView>
 );
 const styles = StyleSheet.create({
   container: {
