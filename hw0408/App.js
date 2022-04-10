@@ -20,7 +20,10 @@ const App = () => (
 const styles = StyleSheet.create({
   container: {
     padding: 20,
-    marginTop: 50,
+    marginTop: Platform.select({
+      ios: 50,
+      android: 10,
+     }),
   },
   item: {
     width: '100%',
